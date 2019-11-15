@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:contentDescription="@string/image"
+        android:src="@drawable/onboarding_screen" />
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="5">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv1"
+            android:textAlignment="center"
+            android:textColor="@color/coffee"
+            android:textSize="@dimen/set30sp"
+            android:layout_marginTop="@dimen/set20dp"
+            android:layout_marginBottom="@dimen/set40dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="@dimen/set120dp"
+                android:layout_height="@dimen/set60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/set30dp"
+                android:layout_marginRight="@dimen/set10dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/registerbtn"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/set15sp" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="@dimen/set120dp"
+                android:layout_height="@dimen/set60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/set10dp"
+                android:layout_marginRight="@dimen/set30dp"
+                android:layout_weight="1"
+                android:background="@drawable/loginbtn"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/coffee"
+                android:textSize="@dimen/set15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/facebook_btn"
+                android:textAllCaps="false"
+                android:layout_width="@dimen/set250dp"
+                android:layout_height="@dimen/set60dp"
+                android:layout_marginLeft="@dimen/set30dp"
+                android:layout_marginTop="@dimen/set10dp"
+                android:layout_marginRight="@dimen/set30dp"
+                android:layout_weight="1"
+                android:background="@drawable/fbbtn"
+                android:drawableLeft="@drawable/fb_icon"
+                android:text="@string/facebook"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/set15dp"
+                android:paddingStart="@dimen/set60dp"
+                android:paddingEnd="@dimen/set60dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

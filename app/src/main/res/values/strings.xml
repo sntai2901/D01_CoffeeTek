@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">D01_CoffeeTek</string>
+    <string name="tv1">Get the best coffee \nin town!</string>
+    <string name="register">Register</string>
+    <string name="image">Image</string>
+    <string name="log_in">Log in</string>
+    <string name="login">Login</string>
+    <string name="facebook">Connect with Facebook</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="noAcc">Don\'t have an account?</string>
+
+    <string name="welcomBack">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="fpassword">Forgot Password?</string>
+
+</resources>
