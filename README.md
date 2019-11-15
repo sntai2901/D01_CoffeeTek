@@ -1,6 +1,8 @@
 # D01_CoffeeTek
 
 ## Realized!
+  - Learn Kotlin Language
+  - Learn Androidx Library instead of android.support Library
   - Create Project
   - Project Structure (AndroidManifest, Activity, Resource,...)
   - Edit Layout (LinearLayout,...)
@@ -12,4 +14,4 @@
 
 ## Unrealized!
   - Auto Slide Image
-  - ImageView has Unwanted padding (can not remove)
+  - ImageView has Unwanted padding (can not find the way to remove it, maybe padding from the layerlist in xml file)
