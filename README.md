@@ -15,8 +15,8 @@
 ## Unrealized!
   - Auto Slide Image
   
-## Update 
-  -Hide status bar when Splash Creen start
-  -Change color and text Status bar
-## Fixed
+## Updated!
+  - Hide status bar when Splash Creen start
+  - Change color and text Status bar
+## Fixed!
   - ImageView has Unwanted padding (can not find the way to remove it, maybe padding from the layerlist in xml file)
